@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subjects Grid</title>
+    <style>
+        
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            display: flex;
+            justify-content: center;
+            background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(./Community-Partnerships.png);
+            background-size: cover;
+    background-position: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 10px;
+            width: 300px;
+        }
+        .card {
+            background-color: white;
+         
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            text-align: center;
+            padding: 20px;
+        }
+        .card:nth-child(1) { background-color: #7eb0d5; }
+        .card:nth-child(2) { background-color: #b2e061; }
+        .card:nth-child(3) { background-color: #fdc086; }
+        .card:nth-child(4) { background-color: #ff9da7; }
+        .card:nth-child(5) { background-color: #c6aedc; }
+        .card:nth-child(6) { background-color: #a9d18e; }
+        .card:nth-child(7) { background-color: #ffbf80; }
+        .card:nth-child(8) { background-color: #ff8a65; }
+        .card:nth-child(9) { background-color: #d4b8e8; }
+        .card:nth-child(10) { background-color: #b7e4c7; }
+        .card:nth-child(11) { background-color: #fda86e; }
+        .card:nth-child(12) { background-color: #ff4d6d; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card">Accounting</div>
+        <div class="card">Acoustic Engineering</div>
+        <div class="card">Acoustics</div>
+        <div class="card">Aerospace Engineering</div>
+        <div class="card">Aesthetics</div>
+        <div class="card">Agriculture</div>
+        <div class="card">Algebra</div>
+        <div class="card">Analysis</div>
+        <div class="card">Analytical Chemistry</div>
+        <div class="card">Anatomy and Physiology</div>
+    </div>
+</body>
+</html>
